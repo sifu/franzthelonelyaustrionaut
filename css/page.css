@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    font-weight: bold;
+}
+
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.container {
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 236px;
+    float: left;
+}
+
+.Page {
+    float: left;
+    width: 540px;
+
+    line-height: 2em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.copyright {
+    margin-top: 2em;
+}
+
+.Issue {
+    float: left;
+    clear: both;
+    margin-bottom: 60px;
+}
+
+.Issue .cover {
+    float: left;
+}
+
+.Issue .title {
+    display: block;
+    position: relative;
+    left: 20px;
+}
+
+.Issue .year {
+    display: block;
+    position: relative;
+    left: 20px;
+}
+
+.Release .Entry {
+    float: left;
+    clear: both;
+    margin-bottom: 60px;
+}
+
+.Release .Entry .cover {
+    float: left;
+    width: 236px;
+}
+
+.Release .Entry .meta {
+    float: left;
+    width: 300px;
+    display: block;
+    position: relative;
+    left: 20px;
+}
+
+.Release .Entry a {
+    display: block;
+    float: left;
+    clear: both;
+}
+
+.Release .Entry .title {
+    font-weight: bold;
+}
+
+.News img {
+    float: left;
+}
+
+.Contact ul {
+    list-style-type: none;
+}
+
+.Contact .vienna {
+    float: left;
+    clear: both;
+    margin-right: 20px;
+}
+
+.Contact ul {
+    margin-bottom: 20px;
+}
+
+.Contact p a {
+    text-decoration: underline;
+}
+
+.Footer {
+    padding-top: 40px;
+    margin-left: 236px;
+    clear: both;
+}
+
+.Footer a {
+    text-decoration: underline;
+}
+
+.buy {
+    display: block;
+    font-weight: bold;
+}
+
+.buy.hidden {
+    display: none;
+}
+
+.soldOut {
+    display: block;
+    font-weight: bold;
+}
+
+.soldOut.hidden {
+    display: none;
+}
+
