@@ -111,7 +111,7 @@
     self.renderDetail = function( num ) {
       var config = magazineIssues[ num ];
       function showImage( index ) {
-        self.$detail.find( '.content' ).attr( 'src', 'vinz/02_Magazine/i' + num + '/' + index + '.png' );
+        self.$detail.find( '.content' ).attr( 'src', 'vinz/02_Magazine/l' + num + '/' + index + '.png' );
       }
       self.$detail.find( '.number' ).attr( 'src', 'vinz/02_Magazine/franzMAGAZINE' + num + '.png' );
       self.$detail.find( '.description' ).text( config.description );
@@ -180,7 +180,7 @@
       showImage( 0 );
       var current = 0;
       self.$detail.on( 'click', function showNext( ) {
-        if( current == 2 ) {
+        if( current == crew[ num ].numberOfImages - 1 ) {
           current = -1;
         }
         showImage( ++current );
@@ -201,11 +201,14 @@
         var $entry = self.$template.clone( )
         .removeClass( 'hidden' )
         .prependTo( self.$list );
-        $entry.find( '.cover' ).attr( 'src', 'vinz/04_Release/release' + i + '.png' );
+        $entry.find( '.cover' ).attr( 'src', 'vinz/04_Release/R' + i + '.png' );
         $entry.find( 'a' ).attr( 'href', '#Release/' + i );
         $entry.find( '.title' ).text( entry.title );
         $entry.find( '.date' ).text( entry.date );
-        $entry.find( '.flyer' ).text( entry.flyer );
+        if( entry.flyer ) {
+          $entry.find( '.flyer' ).text( entry.flyer );
+          $entry.find( '.flyercontainer' ).removeClass( 'hidden' );
+        }
         $entry.find( '.location' ).text( entry.location );
         if( entry.location2 ) {
           $entry.find( '.location2' ).text( entry.location2 ).removeClass( 'hidden' );
