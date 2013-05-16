@@ -261,7 +261,6 @@
         }
         showImage( ++current );
       } );
-
       self.$detail.find( '.detailTitle' ).text( config.detailTitle );
       self.$detail.find( '.description' ).text( config.description );
       self.$detail.find( '.installations' ).html(
@@ -277,6 +276,13 @@
         );
       } else {
         self.$detail.find( '.bands' ).addClass( 'hidden' );
+      }
+      if( config.video ) {
+        self.$detail.find( '.videoCredit' ).html( 'Video: ' + mkLink( config.videoCredit ) );
+        self.$detail.find( '.video' ).html( config.video );
+      } else {
+        self.$detail.find( '.videoCredit' ).html( '' );
+        self.$detail.find( '.video' ).html( '' );
       }
     };
     return init( );
