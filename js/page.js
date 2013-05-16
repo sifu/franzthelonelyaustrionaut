@@ -264,7 +264,7 @@
   }
   function init( ) {
     RandomLogo( $( '.logo' ) );
-    var nav = Nav( $( '.nav' ) );
+    var nav = Nav( $( '.Nav' ) );
     var pages = Pages( );
     function publishHash( ) {
       var hash = location.hash.replace( '#', '' );

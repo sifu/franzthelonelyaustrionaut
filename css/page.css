@@ -39,6 +39,18 @@ a {
     margin-top: 2em;
 }
 
+.Nav a.active {
+    display: none;
+}
+
+.Nav .active a.active {
+    display: block;
+}
+
+.Nav .active a.inactive {
+    display: none;
+}
+
 .Issue {
     float: left;
     clear: both;
