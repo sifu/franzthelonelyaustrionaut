@@ -31,6 +31,14 @@ img.content {
     cursor: pointer;
 }
 
+img {
+    border: none;
+}
+
+a img {
+    border: none;
+}
+
 .container {
     margin-top: 20px;
 }
