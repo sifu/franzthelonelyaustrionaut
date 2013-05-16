@@ -116,7 +116,10 @@
     self.renderDetail = function( num ) {
       var config = magazineIssues[ num ];
       function showImage( index ) {
-        self.$detail.find( '.content' ).attr( 'src', 'vinz/02_Magazine/l' + num + '/' + index + '.png' );
+        self.$detail.find( '.content' ).attr( 'src', '' );
+        setTimeout( function( ) {
+          self.$detail.find( '.content' ).attr( 'src', 'vinz/02_Magazine/l' + num + '/' + index + '.png' );
+        }, 1 );
       }
       self.$detail.find( '.number' ).attr( 'src', 'vinz/02_Magazine/franzMAGAZINE' + num + '.png' );
       self.$detail.find( '.description' ).text( config.description );
@@ -192,7 +195,10 @@
       self.$detail.find( '.name' ).text( config.name );
       self.$detail.find( '.description' ).text( config.description );
       function showImage( index ) {
-        self.$detail.find( '.content' ).attr( 'src', 'vinz/03_Crew/C' + num + '/' + index + '.png' );
+        self.$detail.find( '.content' ).attr( 'src', '' );
+        setTimeout( function( ) {
+          self.$detail.find( '.content' ).attr( 'src', 'vinz/03_Crew/C' + num + '/' + index + '.png' );
+        }, 1 );
       }
       showImage( 0 );
       var current = 0;
@@ -256,7 +262,10 @@
       }
       var config = releases[ num ];
       function showImage( index ) {
-        self.$detail.find( '.content' ).attr( 'src', 'vinz/04_Release/R' + num + '/' + index + '.png' );
+        self.$detail.find( '.content' ).attr( 'src', '' );
+        setTimeout( function( ) {
+          self.$detail.find( '.content' ).attr( 'src', 'vinz/04_Release/R' + num + '/' + index + '.png' );
+        }, 1 );
       }
       showImage( 0 );
       var current = 0;
