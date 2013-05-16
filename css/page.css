@@ -143,19 +143,11 @@ img.content {
     margin-bottom: 20px;
 }
 
-.Contact p a {
-    text-decoration: underline;
-}
-
 .Footer {
     padding-top: 40px;
     margin-left: 236px;
     clear: both;
     font-style: italic;
-}
-
-.Footer a {
-    text-decoration: underline;
 }
 
 .buy {
