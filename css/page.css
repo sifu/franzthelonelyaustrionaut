@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
 .hidden {
     display: none;
 }
@@ -33,10 +38,9 @@ img.content {
 
 .Page {
     float: left;
-    width: 540px;
+    width: 704px;
 
     line-height: 2em;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .copyright {
@@ -134,6 +138,7 @@ img.content {
     padding-top: 40px;
     margin-left: 236px;
     clear: both;
+    font-style: italic;
 }
 
 .Footer a {
