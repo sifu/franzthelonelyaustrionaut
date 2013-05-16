@@ -1,4 +1,8 @@
 (function(){
+  function getArtistLink( artist ) {
+    return artistLinks[ artist.toLowerCase( ) ];
+  }
+
   function randomInt( min, max ) {
     return Math.floor( Math.random( ) * max ) + min;
   };
@@ -97,6 +101,7 @@
       } );
     };
     self.onShow = function( ) {
+      window.scrollTo( 0, 0 );
       var urlParts = location.hash.split( '/' );
       var isDetailView = urlParts.length > 1;
       if( isDetailView ) {
@@ -125,7 +130,7 @@
 
       var artists = _.map( config.artists.split( ',' ), $.trim );
       _.forEach( artists, function( artist, i ) {
-        var url = artistLinks[ artist ];
+        var url = getArtistLink( artist );
         $( '<a>' ).text( artist ).attr( 'href', url ).appendTo( self.$detail.find( '.artists' ) );
         if( i < artists.length - 2 ) {
           $( '<span>, </span>' ).appendTo( self.$detail.find( '.artists' ) );
@@ -137,7 +142,7 @@
 
       showImage( 0 );
       var current = 0;
-      self.$detail.on( 'click', function showNext( ) {
+      self.$detail.find( '.content' ).on( 'click', function showNext( ) {
         if( current == ( config.numberOfImages - 1 ) ) {
           current = -1;
         }
@@ -172,15 +177,22 @@
       }
     };
     self.renderDetail = function( num ) {
-      self.$detail.find( '.name' ).text( crew[ num ].name );
-      self.$detail.find( '.description' ).text( crew[ num ].description );
+      var config = crew[ num ];
+      if( config.link ) {
+        self.$detail.find( '.link' ).removeClass( 'hidden' );
+        self.$detail.find( '.link' ).html( '<a href="' + config.link + '">' + config.link + '</a>' );
+      } else {
+        self.$detail.find( '.link' ).addClass( 'hidden' );
+      }
+      self.$detail.find( '.name' ).text( config.name );
+      self.$detail.find( '.description' ).text( config.description );
       function showImage( index ) {
         self.$detail.find( '.content' ).attr( 'src', 'vinz/03_Crew/C' + num + '/' + index + '.png' );
       }
       showImage( 0 );
       var current = 0;
-      self.$detail.on( 'click', function showNext( ) {
-        if( current == crew[ num ].numberOfImages - 1 ) {
+      self.$detail.find( '.content' ).on( 'click', function showNext( ) {
+        if( current == config.numberOfImages - 1 ) {
           current = -1;
         }
         showImage( ++current );
@@ -228,8 +240,44 @@
       }
     };
     self.renderDetail = function( num ) {
+      function mkLink( name ) {
+        name = $.trim( name );
+        var url = getArtistLink( name );
+        if( url ) {
+          return '<a href="' + getArtistLink( name ) + '">' + name + '</a>';
+        } else {
+          return name;
+        }
+      }
       var config = releases[ num ];
-      console.info( config );
+      function showImage( index ) {
+        self.$detail.find( '.content' ).attr( 'src', 'vinz/04_Release/R' + num + '/' + index + '.png' );
+      }
+      showImage( 0 );
+      var current = 0;
+      self.$detail.on( 'click', function showNext( ) {
+        if( current == ( config.numberOfImages - 1 ) ) {
+          current = -1;
+        }
+        showImage( ++current );
+      } );
+
+      self.$detail.find( '.detailTitle' ).text( config.detailTitle );
+      self.$detail.find( '.description' ).text( config.description );
+      self.$detail.find( '.installations' ).html(
+        'Installations: ' + _.map( config.installations.split( ',' ), mkLink ).join( ' / ' )
+      );
+      self.$detail.find( '.photos' ).html(
+        'Photos: ' + _.map( config.photos.split( ',' ), mkLink ).join( ' / ' )
+      );
+      if( config.bands ) {
+        self.$detail.find( '.bands' ).removeClass( 'hidden' );
+        self.$detail.find( '.bands' ).html(
+          'Bands: ' + _.map( config.bands.split( ',' ), mkLink ).join( ' / ' )
+        );
+      } else {
+        self.$detail.find( '.bands' ).addClass( 'hidden' );
+      }
     };
     return init( );
   }

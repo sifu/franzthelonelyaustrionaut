@@ -18,6 +18,10 @@ a {
 }
 
 
+img.content {
+    cursor: pointer;
+}
+
 .container {
     margin-top: 20px;
 }
@@ -41,10 +45,12 @@ a {
 
 .Nav a.active {
     display: none;
+    font-weight: normal;
 }
 
 .Nav .active a.active {
     display: block;
+    font-weight: normal;
 }
 
 .Nav .active a.inactive {
