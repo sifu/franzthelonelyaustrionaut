@@ -128,10 +128,15 @@
         self.$detail.find( '.buy' ).removeClass( 'hidden' );
       }
 
+      self.$detail.find( '.artists' ).html( '' );
       var artists = _.map( config.artists.split( ',' ), $.trim );
       _.forEach( artists, function( artist, i ) {
         var url = getArtistLink( artist );
-        $( '<a>' ).text( artist ).attr( 'href', url ).appendTo( self.$detail.find( '.artists' ) );
+        if( url ) {
+          $( '<a>' ).text( artist ).attr( 'href', url ).appendTo( self.$detail.find( '.artists' ) );
+        } else {
+          $( '<span>' ).text( artist ).appendTo( self.$detail.find( '.artists' ) );
+        }
         if( i < artists.length - 2 ) {
           $( '<span>, </span>' ).appendTo( self.$detail.find( '.artists' ) );
         }

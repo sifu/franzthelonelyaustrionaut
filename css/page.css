@@ -18,10 +18,14 @@ body {
 
 
 a {
-    color: #000;
+    color: #999;
     text-decoration: none;
 }
 
+a:hover {
+    color: #000;
+    text-decoration: underline;
+}
 
 img.content {
     cursor: pointer;
@@ -106,6 +110,11 @@ img.content {
     display: block;
     float: left;
     clear: both;
+    color: #000;
+}
+
+.Release .Entry a:hover {
+    text-decoration: none;
 }
 
 .Release .Entry .title {
@@ -114,6 +123,10 @@ img.content {
 
 .News img {
     float: left;
+}
+
+.Crew .List a {
+    display: block;
 }
 
 .Contact ul {
