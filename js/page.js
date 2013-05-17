@@ -167,7 +167,7 @@
       return self;
     }
     self.onInit = function( ) {
-      _.forEach( _.range( 0, 8 ), function( num ) {
+      _.forEach( _.range( 0, 9 ), function( num ) {
         var $link = $( '<a>' ).attr( 'href', '#Crew/' + num ).appendTo( self.$list );
         $( '<img>' ).attr( 'src', 'vinz/03_Crew/crew{num}.png'.replace( '{num}', num ) ).appendTo( $link );
       } );
@@ -343,7 +343,8 @@
         pages.onHash( hash );
       }
     }
-    $( window ).hashchange( publishHash );
+    hasher.changed.add( publishHash );
+    hasher.init( );
     publishHash( );
   }
   init( );
