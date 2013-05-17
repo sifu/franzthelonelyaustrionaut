@@ -17,6 +17,10 @@ body {
 }
 
 
+h1,h2,h3,h4,h5,h6 {
+    font-size: 14px;
+}
+
 a {
     color: #999;
     text-decoration: none;
@@ -25,6 +29,10 @@ a {
 a:hover {
     color: #000;
     text-decoration: underline;
+}
+
+img.content, img.random {
+    margin-bottom: 10px;
 }
 
 img.content {
@@ -153,7 +161,6 @@ a img {
 
 .Footer {
     padding-top: 40px;
-    margin-left: 236px;
     clear: both;
     font-style: italic;
 }
