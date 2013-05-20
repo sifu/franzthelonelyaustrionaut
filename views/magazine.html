@@ -1,0 +1,25 @@
+<div class='Page Magazine'>
+  <div class='IssueList' ng-hide='selectedIssue'>
+    <div class='Issue' ng-repeat='issue in issues'>
+      <a href='#/Magazine?issue={{ issue._i }}'><img class='cover' width='236' heigth='334' ng-src='vinz/02_Magazine/franz{{ issue._i }}.png' /></a>
+      <a href='#/Magazine?issue={{ issue._i }}'><img class='number' width='177' heigth='42' ng-src='vinz/02_Magazine/franzMAGAZINE{{ issue._i }}.png' /></a>
+      <a href='#/Magazine?issue={{ issue._i }}'><span class='title'>{{ issue.title }}</span></a>
+      <a href='#/Magazine?issue={{ issue._i }}'><span class='year'>{{ issue.year }}</span></a>
+    </div>
+  </div>
+  <div class='IssueDetail' ng-show='selectedIssue'>
+    <img ng-click='nextImage( )' class='content' width='704' height='512' ng-src='vinz/02_Magazine/l{{ selectedIssue._i }}/{{ currentImageIndex }}.png' />
+    <img class='number' width='177' heigth='42' ng-src='vinz/02_Magazine/franzMAGAZINE{{ selectedIssue._i }}.png' />
+    <p class='description'></p>
+    <p>
+      with
+      <span class='artists'>
+        <span ng-repeat='artist in selectedIssue.artists'>
+          <span person-link='artist'></span><span ng-show='$first'>, </span><span ng-show='$middle'>, </span>
+        </span>
+      </span>
+    </p>
+    <a class='buy' ng-hide='selectedIssue.soldOut' href='mailto:franzthelonelyaustrionaut@gmail.com'>BUY HERE</a>
+    <a class='soldOut' ng-show='selectedIssue.soldOut'>SOLD OUT</a>
+  </div>
+</div>

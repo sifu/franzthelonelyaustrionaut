@@ -1,0 +1,56 @@
+[
+  {
+    "name": "S. E. EIERSHOLT",
+    "description": "My name is Sarah Egbert Eiersholt, i have worked as an illustrator since 2009. I live and work in Copenhagen, Denmark.",
+    "link": "http://www.sarahegberteiersholt.com",
+    "numberOfImages": 3
+  },
+  {
+    "name": "NIKOLAUS FEINIG",
+    "description": "was born in 1985. He studied Fine Arts in Angouleme (France) and Vienna, later classical doublebass in Graz. At the moment he is studying contemporary music with the Klangforum Wien. He is working as an Illustrator and comic-artist together with Simon Vith.",
+    "link": "",
+    "numberOfImages": 2
+  },
+  {
+    "name": "PIRMIN HAGEN",
+    "description": "is the inventor of Franzi, a slightly strange kid. Franzi is the inventor of many unusual ways of hunting. Franzi however, isn‘t the only thing Pirmin invented, he is also an artist who does other things.",
+    "link": "",
+    "numberOfImages": 3
+  },
+  {
+    "name": "CHRISTINE KATSCHER",
+    "description": "studied at the department of graphic arts and printmaking techniques at the Academy of Fine Arts in Vienna. She now lives in Edinburgh, Scotland, where she works in a printmaking studio.",
+    "link": "",
+    "numberOfImages": 3
+  },
+  {
+    "name": "SEBASTIAN KOCH",
+    "description": "studied at the department of graphic arts and printmaking techniques at the Academy of Fine Arts, Vienna. He lives and works in Vienna.",
+    "link": "http://sebastiankoch.tumblr.com",
+    "numberOfImages": 1
+  },
+  {
+    "name": "FABIAN LEIT",
+    "description": "is studying textual sculpture at the Academy of Fine Arts Vienna.",
+    "link": "http://theworkshop.tumblr.com/tagged/f",
+    "numberOfImages": 2
+  },
+  {
+    "name": "RAPHAELA RIEPL",
+    "description": "studied at the Academy of Fine Arts in Vienna and at the ENSBA in Paris. She now lives and works in New York.",
+    "link": "http://www.raphaela.cc",
+    "numberOfImages": 3
+  },
+  {
+    "name": "VINZ SCHWARZBAUER",
+    "description": "is an artist and illustrator based in Vienna. After having started drawing more than 20 years ago, he worked as a factory worker, graphic designer, illustrator and enthusiastic self-publisher of small comics and zines. At the moment he is studying at the department of graphics and printmaking techniques at the Academy of Fine Arts, Vienna.",
+    "link": "http://theworkshop.tumblr.com/tagged/v",
+    "numberOfImages": 3
+  },
+  {
+    "name": "SIMON VITH",
+    "description": "born 1986 in Feldkirch/ Austria studied „fine arts“ and „art and communication“ at the Academy of Fine Arts Vienna. He works as an artist and illustrator in Vienna. The drawings for Franz-the lonely austrionaut are produced in cooperation with Nikolaus Feinig.",
+    "link": "http://simonvith.com",
+    "numberOfImages": 3
+  }
+]

@@ -1,0 +1,36 @@
+<div class='Page Release'>
+  <div class='List' ng-hide='selected'>
+    <div class='Entry' ng-repeat='item in list'>
+      <a href='#/Release?release={{ item._i }}'><img class='cover' width='236' heigth='334' ng-src='vinz/04_Release/R{{ item._i }}.png'' /></a>
+      <div class='meta'>
+        <a href='#/Release?release={{ item._i }}'><span class='title'>{{ item.title }}</span></a>
+        <a href='#/Release?release={{ item._i }}'><span class='date'>{{ item.date }}</span></a>
+        <a href='#/Release?release={{ item._i }}'><span class='location'>{{ item.location }}</span></a>
+        <a href='#/Release?release={{ item._i }}' ng-show='item.location2'><span class='location2'>{{ item.location2 }}</span></a>
+        <a href='#/Release?release={{ item._i }}' ng-show='item.flyer'><span class='flyercontainer'>Fyler: {{ item.flyer }}</span></a>
+      </div>
+    </div>
+  </div>
+  <div class='Detail' ng-show='selected'>
+    <img ng-click='nextImage( )' class='content' width='704' height='512' ng-src='vinz/04_Release/R{{ selected._i }}/{{ currentImageIndex }}.png' />
+    <h2 class='detailTitle'>{{ selected.detailTitle }}</h2>
+    <p class='description'>{{ selected.description }}</p>
+    <p class='installations'>Installations:
+      <span ng-repeat='p in selected.installations'>
+        <span person-link='p'></span><span ng-show='$first'>, </span><span ng-show='$middle'>, </span>
+      </span>
+    </p>
+    <p class='bands'>Bands:
+      <span ng-repeat='p in selected.bands'>
+        <span person-link='p'></span><span ng-show='$first'>, </span><span ng-show='$middle'>, </span>
+      </span>
+    </p>
+    <p class='bands'>Fotos:
+      <span ng-repeat='p in selected.photos'>
+        <span person-link='p'></span><span ng-show='$first'>, </span><span ng-show='$middle'>, </span>
+      </span>
+    </p>
+    <p class='videoCredit' ng-show='selected.videoCredit'>Video: {{ selected.videoCredit }}</p>
+    <div class='video' ng-show='selected.video' ng-bind-html-unsafe='selected.video'></div>
+  </div>
+</div>

@@ -1,0 +1,73 @@
+[
+  {
+    "title": "RELEASE #0 & #1",
+    "date": "08.04.2010",
+    "location": "K48, Vienna",
+    "location2": "",
+    "flyer": "",
+    "numberOfImages": 6,
+    "installations": "Fabian Leit, Raphaela Riepl, Simon Vith, David Eisl, Stanislaus Medan",
+    "bands": "DAS FRITZI-TATZBÄR-TRIO",
+    "photos": "Fabian Leit",
+    "detailTitle": "BEARWARMER / APOCALYPSE",
+    "description": "K48, 2010",
+    "videoCredit": "Vinz Schwarzbauer",
+    "video": "<iframe src=\"http://player.vimeo.com/video/10770195\" width=\"692\" height=\"512\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>"
+  },
+  {
+    "title": "RELEASE #2 & #3",
+    "date": "28.01.2011",
+    "location": "MOE, Vienna",
+    "location2": "Sebastian Koch",
+    "flyer": "Sebastian Koch",
+    "numberOfImages": 8,
+    "installations": "Christine Katscher, Pirmin Hagen, Leonie Spitzer",
+    "bands": "A THOUSAND FUEGOS, RAMBO RAMBO RAMBO",
+    "photos": "Serafin Spitzer",
+    "detailTitle": "RESURRACTION / WHERE THE PEPPER GROWS",
+    "description": "Moe, 2011",
+    "video": ""
+  },
+  {
+    "title": "RELEASE #4 & #5",
+    "date": "28.10.2011",
+    "location": "Semperdepot",
+    "location2": "Atelierhaus der Akademie der Bildenden Künste Wien",
+    "flyer": "Raphaela Riepl",
+    "numberOfImages": 7,
+    "installations": "Christine Katscher, Pirmin Hagen, Fabian Leit, Raphaela Riepl",
+    "bands": "MA AM, FRITZI-TATZBÄR-TRIO",
+    "photos": "Severin Hagen, Fabian Leit, Vinz Schwarzbauer",
+    "detailTitle": "SAILORS AND MOONS / NOW IN 2D",
+    "description": "Akademie der bildenden Künste Wien, Prospekthof 2011",
+    "video": ""
+  },
+  {
+    "title": "RELEASE #6 & #7",
+    "date": "22.06.2012",
+    "location": "Semperdepot",
+    "location2": "Atelierhaus der Akademie der Bildenden Künste Wien",
+    "flyer": "Vinz Schwarzbauer",
+    "numberOfImages": 7,
+    "installations": "Christine Katscher, Pirmin Hagen, Fabian Leit",
+    "bands": "BLACK SHAMPOO",
+    "photos": "Fabian Leit, Vinz Schwarzbauer",
+    "detailTitle": "HOTEL / FRANZ IS SICK",
+    "description": "Akademie der bildenden Künste Wien, Prospekthof 2012",
+    "video": ""
+  },
+  {
+    "title": "RELEASE #8",
+    "date": "28.02.2013",
+    "location": "Grelle Forelle, Vienna",
+    "location2": "",
+    "flyer": "Fabian Leit",
+    "numberOfImages": 6,
+    "installations": "Fabian Leit, Gabriele Edlbauer",
+    "bands": "",
+    "photos": "Gabriele Edlbauer",
+    "detailTitle": "DANGER",
+    "description": "Grelle Forelle, 2013",
+    "video": ""
+  }
+]

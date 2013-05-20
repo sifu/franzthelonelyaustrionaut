@@ -1,0 +1,11 @@
+<div class='Page Crew'>
+  <div class='List' ng-hide='selected'>
+    <a href='{{ item.url }}' ng-repeat='item in list'><img ng-src='{{ item.img }}' /></a>
+  </div>
+  <div class='Detail' ng-show='selected'>
+    <img class='content' width='704' height='512' ng-src='vinz/03_Crew/C{{ selected._i }}/{{ currentImageIndex }}.png' ng-click='nextImage( )' />
+    <h2 class='name'>{{ selected.name }}</h2>
+    <p class='description'>{{ selected.description }}</p>
+    <p class='link' ng-show='selected.link'><a href='{{ selected.link }}'>{{ selected.link }}</a></p>
+  </div>
+</div>

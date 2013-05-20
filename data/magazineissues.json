@@ -1,0 +1,67 @@
+[
+  {
+    "title": "BEAR-WARMER",
+    "year": 2009,
+    "numberOfImages": 6,
+    "artists": "Christine Katscher, Vinz Schwarzbauer, Pirmin Hagen, S. E. Eiersholt, Simon Vith, Nikolaus Feinig, J.E.Y.F., Raphaela Riepl, Severin Hagen, Sebastian Koch, Fabian Leit",
+    "description": "Bear-warmer, 32 pages, 21cm x 29,7cm, Auflage 100, 2009",
+    "soldOut": true
+  },
+  {
+    "title": "APOCALYPSE",
+    "year": 2009,
+    "numberOfImages": 6,
+    "artists": "Christine Katscher, Saskia Kasper, Vinz Schwarzbauer, Theresa Eipeldauer, S. E. Eiersholt , Simon Vith, Nikolaus Feinig, Saskia Te Nicklin, J.E.Y.F., Raphaela Riepl, David Eisl, Sebastian Koch, Pirmin Hagen",
+    "description": "Apocalypse, 32 pages, 21cm x 29,7cm, Auflage 100, 2009",
+    "soldOut": true
+  },
+  {
+    "title": "WHERE THE PEPPER GROWS",
+    "year": 2010,
+    "numberOfImages": 6,
+    "artists": "Christine Katscher, Pirmin Hagen, Raphaela Riepl, Trevor Williams, S. E. Eiersholt, Saskia Te Nicklin, Stanislaus Medan, Sophia Lipburger, Simon Vith, Nikolaus Feinig, J.E.Y.F., Vinz Schwarzbauer, Katrin Schubert",
+    "description": "Where the pepper grows, 32 pages, 21cm x 29,7cm, Auflage 200, 2010"
+  },
+  {
+    "title": "RESURRACTION",
+    "year": 2010,
+    "numberOfImages": 6,
+    "artists": "Sophia Lipburger, Sebastian Koch, Vinz Schwarzbauer, S. E. Eiersholt, Raphaela Riepl, Sebastian Rumpl, Christine Katscher, Simon Vith, Nikolaus Feinig, Gunter Damisch, Matthias Peyker, Lorenz Helfer",
+    "description": "Resurraction, 32 pages, 21cm x 29,7cm, Auflage 200, 2010"
+  },
+  {
+    "title": "SAILORS & MOONS",
+    "year": 2011,
+    "numberOfImages": 6,
+    "artists": "S. E. Eiersholt, Anna Haifisch, Hatschepsut Huss, Simon Vith, Nikolaus Feinig, Christine Katscher, Sophia Lipburger, Origi Nalkopie, Raphaela Riepl, Vinz Schwarzbauer, Laurenz Feinig, Lorenz Helfer, Linus Baumschlager, Pirmin Hagen, Fabian Leit",
+    "description": "Sailors and Moons, 48 pages, 21cm x 29,7cm, Auflage 200, 2011"
+  },
+  {
+    "title": "NOW IN 2D",
+    "year": 2011,
+    "numberOfImages": 7,
+    "artists": "Tine Presterud, S. E. Eiersholt, Raphaela Riepl, Simon Vith, Nikolaus Feinig, Christine Katscher, Stanislaus Medan, Fabian Leit, Evelyn Plaschg, Sebastian Koch, Maria Mäser, Vinz Schwarzbauer, Constanze Kresta, Pirmin Hagen, Severin Hagen",
+    "description": "now in 2D, 48 pages, 21cm x 29,7cm, Auflage 200, 2011"
+  },
+  {
+    "title": "HOTEL",
+    "year": 2012,
+    "numberOfImages": 8,
+    "artists": "Sebastian Koch, Laurenz Feinig, Nikolaus Feinig, Anna Kinbom, Simon Vith, Anna Kohlweis, Carolin Walch, Fabian Leit, Hyo Lee, Matthias Peyker, Sophie Thelen, Halvor Rønning, Stanislaus Medan, Vinz Schwarzbauer, Christine Katscher",
+    "description": "Hotel, 72 pages, 21cm x 29,7cm, Auflage 150, 2012"
+  },
+  {
+    "title": "FRANZ IS SICK",
+    "year": 2012,
+    "numberOfImages": 8,
+    "artists": "S. E. Eiersholt, Vinz Schwarzbauer, Anna Kinbom, Lisa Yvo, Stefanie Sargnagel, Nikolaus Feinig, Stanislaus Medan, Fabian Leit, Anna Kohlweis, Sophie Thelen, Robin Klengel, Simon Vith, Hans Lichtenwagner, Fanny Zerz, Henrik Ekesiöö, Raphaela Riepl",
+    "description": "Illness, 64 pages, 21cm x 29,7cm, Auflage 150, 2012"
+  },
+  {
+    "title": "DANGER",
+    "year": 2013,
+    "numberOfImages": 8,
+    "artists": "Anna Kinbom, Fabian Leit, Amitai Romm, AHAOK, Vinz Schwarzbauer, Linnéa Sjöberg, Christine Katscher, Evelyn Plaschg, Henrik Ekesiöö, Hans Lichtenwagner, Josip Novosel, Iris Dittler, Simon Vith, Nikolaus Feinig, Laurenz Feinig, Liesl Raff, Linus Riepler, Matthias Peyker, Raphaela Riepl, Richard Nikl, Pirmin Hagen, Burnbjoern",
+    "description": "Danger, 84 pages, 21cm x 29,7cm, Auflage 200, 2013"
+  }
+]
