@@ -44,8 +44,13 @@ a img {
 }
 
 .sidebar {
-    width: 236px;
+    position: fixed;
     float: left;
+}
+
+.main {
+    position: absolute;
+    left: 236px;
 }
 
 .Page {
@@ -73,12 +78,14 @@ a img {
     display: block;
     position: relative;
     left: 20px;
+    color: black;
 }
 
 .Issue .year {
     display: block;
     position: relative;
     left: 20px;
+    color: black;
 }
 
 .Release .Entry {
