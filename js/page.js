@@ -40,6 +40,10 @@ var franz = angular.module( 'franz', [ ] ).config( [ '$routeProvider', function(
     templateUrl: 'views/contact.html',
     controller: 'PageCtrl'
   } )
+  .when( '/Impressum', {
+    templateUrl: 'views/impressum.html',
+    controller: 'PageCtrl'
+  } )
   .otherwise( {
     redirectTo: '/Mission'
   } );
