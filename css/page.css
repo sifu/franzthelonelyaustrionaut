@@ -122,6 +122,13 @@ a img {
     font-weight: bold;
 }
 
+.News .Item {
+    margin-bottom: 60px;
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
 .News img {
     float: left;
 }
