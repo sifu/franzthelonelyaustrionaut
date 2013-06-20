@@ -133,6 +133,10 @@ a img {
     float: left;
 }
 
+.News .date {
+    color: #999;
+}
+
 .Crew .List a {
     display: block;
 }
