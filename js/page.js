@@ -221,7 +221,9 @@ franz.controller( 'ReleaseCtrl', function( $scope, $http, $location ) {
     if( selectedIndex != undefined ) {
       $scope.selected = result.data[ selectedIndex ]
       $scope.selected.installations = _.map( $scope.selected.installations.split( ',' ), trim );
-      $scope.selected.bands = _.map( $scope.selected.bands.split( ',' ), trim );
+      if( $scope.selected.bands ) {
+        $scope.selected.bands = _.map( $scope.selected.bands.split( ',' ), trim );
+      }
       $scope.selected.photos = _.map( $scope.selected.photos.split( ',' ), trim );
     }
     $scope.list = reverseWithIndex( result.data );

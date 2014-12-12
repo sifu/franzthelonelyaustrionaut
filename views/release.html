@@ -20,7 +20,7 @@
         <span person-link='p'></span><span ng-show='$first'>, </span><span ng-show='$middle'>, </span>
       </span>
     </p>
-    <p class='bands'>Bands:
+    <p class='bands' ng-show="selected.bands">Bands:
       <span ng-repeat='p in selected.bands'>
         <span person-link='p'></span><span ng-show='$first'>, </span><span ng-show='$middle'>, </span>
       </span>
