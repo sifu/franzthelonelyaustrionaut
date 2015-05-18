@@ -160,10 +160,10 @@ franz.controller( 'MagazineCtrl', function( $scope, $http, $location ) {
     if( $scope.currentImageIndex == $scope.selectedIssue.numberOfImages ) {
       $scope.currentImageIndex = 0;
     }
-  }
+  };
   $http.get( 'data/magazineissues.json' )
   .then( function( result ) {
-    if( selectedIssueIndex != undefined ) {
+    if( selectedIssueIndex !== undefined ) {
       $scope.selectedIssue = result.data[ selectedIssueIndex ];
     }
     $scope.issues = _.map( reverseWithIndex( result.data ), function( issue ) {

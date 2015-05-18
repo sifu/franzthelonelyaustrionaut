@@ -48,21 +48,24 @@
     "year": 2012,
     "numberOfImages": 8,
     "artists": "Sebastian Koch, Laurenz Feinig, Nikolaus Feinig, Anna Kinbom, Simon Vith, Anna Kohlweis, Carolin Walch, Fabian Leit, Hyo Lee, Matthias Peyker, Sophie Thelen, Halvor Rønning, Stanislaus Medan, Vinz Schwarzbauer, Christine Katscher",
-    "description": "Hotel, 72 pages, 21cm x 29,7cm, Auflage 150, 2012"
+    "description": "Hotel, 72 pages, 21cm x 29,7cm, Auflage 150, 2012",
+    "soldOut": true
   },
   {
     "title": "FRANZ IS SICK",
     "year": 2012,
     "numberOfImages": 8,
     "artists": "S. E. Eiersholt, Vinz Schwarzbauer, Anna Kinbom, Lisa Yvo, Stefanie Sargnagel, Nikolaus Feinig, Stanislaus Medan, Fabian Leit, Anna Kohlweis, Sophie Thelen, Robin Klengel, Simon Vith, Hans Lichtenwagner, Fanny Zerz, Henrik Ekesiöö, Raphaela Riepl",
-    "description": "Illness, 64 pages, 21cm x 29,7cm, Auflage 150, 2012"
+    "description": "Illness, 64 pages, 21cm x 29,7cm, Auflage 150, 2012",
+    "soldOut": true
   },
   {
     "title": "DANGER",
     "year": 2013,
     "numberOfImages": 8,
     "artists": "Anna Kinbom, Fabian Leit, Amitai Romm, AHAOK, Vinz Schwarzbauer, Linnéa Sjöberg, Christine Katscher, Evelyn Plaschg, Henrik Ekesiöö, Hans Lichtenwagner, Josip Novosel, Iris Dittler, Simon Vith, Nikolaus Feinig, Laurenz Feinig, Liesl Raff, Linus Riepler, Matthias Peyker, Raphaela Riepl, Richard Nikl, Pirmin Hagen, Burnbjörn",
-    "description": "Danger, 84 pages, 21cm x 29,7cm, Auflage 200, 2013"
+    "description": "Danger, 84 pages, 21cm x 29,7cm, Auflage 200, 2013",
+    "soldOut": true
   },
   {
     "title": "WEST",
@@ -70,5 +73,11 @@
     "numberOfImages": 4,
     "artists": "Hyo Lee, Hatschepsut Huss, Hans Lichtenwagner, Vinz Schwarzbauer, Lena Gold, Josip Novosel, Marie Fegerl, Pirmin Hagen, Martin Saether, Fabian Leit, Raphaela Riepl, Nikolaus Feinig, Simon Vith, Henrik Ekesiöö, Stanislaus Medan, Hyoen-Jung Lee, Isabel Peterhans, Christine Katscher",
     "description": ""
+  },
+  {
+    "title": "If i read it till the end i'll be home again",
+    "year": 2015,
+    "numberOfImages": 4,
+    "artists": "Raphaela Riepl, Ingineur X, Nobuhiko Numazaki, Nikolaus Feinig, Marianne Vlaschits, Slavomira Ondrusova, Sebastian Koch, Evelyn Plaschg, Peter Phobia, Vinz Schwarzbauer, Noushin Redjaian, Simon Vith, Milan Vagac, Philip Patkowitsch, Christine Katscher, Thesa Tödlich und die Donaukanal-Connection, Pirmin Hagen, Fabian Leitgeb, Matthias Peker"
   }
 ]
