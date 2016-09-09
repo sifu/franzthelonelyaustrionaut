@@ -25,6 +25,10 @@
         <span person-link='p'></span><span ng-show='$first'>, </span><span ng-show='$middle'>, </span>
       </span>
     </p>
+    <p class="performance" ng-show="selected.performance">
+      Performance:
+      <span ng-bind-html-unsafe="selected.performance"></span>
+    </p>
     <p class='bands'>Fotos:
       <span ng-repeat='p in selected.photos'>
         <span person-link='p'></span><span ng-show='$first'>, </span><span ng-show='$middle'>, </span>

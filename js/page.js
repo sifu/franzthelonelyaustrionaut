@@ -122,7 +122,7 @@ franz.controller( 'AppCtrl', function( $scope, $location ) {
   }
 
   function loadRandomLogo( ) {
-    $scope.randomLogo = S( 'vinz/navi/franzlogo{{num}}.png', { num: randomInt( 1, 4 ) } );
+    $scope.randomLogo = S( 'vinz/navi/franzlogo{{num}}.png', { num: randomInt( 1, 6 ) } );
   }
 
   $scope.$on( '$locationChangeSuccess', function( ) {
